@@ -91,7 +91,7 @@ img5 = PhotoImage(file = r"C:\Users\U6064293\OneDrive - Clarivate Analytics\Desk
 my_image5 = can.create_image(1100,0, anchor = "n",image =img5)
 
 
-Label(text="BOOK YOUR APPOINTMENT", font= "comicsansms 19 ",pady=10).pack(anchor="w",)  #apointment branch
+Label(text="BOOK YOUR APPOINTMENT", font= "comicsansms 19 ",pady=10).pack(anchor="w",)  #appointment branch
 Label(text="_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________").pack()
 Label(text="Enter your name").pack()                      #credentials
 e1 = Entry(root)
@@ -101,7 +101,10 @@ e2 = Entry(root)
 e2.pack()
 Label(text="Enter your email id").pack()
 e3 = Entry(root)
-e3.pack()                                                 
+e3.pack()
+Label(text="Liked our Service? Write a Feedback to us below.").pack()
+e4 = Entry(root)
+e4.pack()                                                 
 Label(text="Rate us").pack()
 myslider = Scale(root, from_ = 0, to = 5, orient = HORIZONTAL)
 myslider.pack()                                             #slider
