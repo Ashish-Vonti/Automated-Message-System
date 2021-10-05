@@ -6,9 +6,9 @@ import os
 import requests
 
 root = Tk()                           #tkinter initial steps
-root.title("The Massage Center")      #window title
+root.title("Welcome to our Massage Center!!")      #window title
 root.geometry("1360x768")             
-root.iconbitmap("C:\\Users\\ashis\\Desktop\\auto\\logo.ico")   #icon
+root.iconbitmap(r"C:\Users\U6064293\OneDrive - Clarivate Analytics\Desktop\Repo\Automated-Message-System-main\auto\logo.ico")   #icon
 
 
 
@@ -45,7 +45,7 @@ def click():
 
     print(response.text)
 
-Label(text=" The Massage Center ",bg="red",padx = 10,pady = 10, font = "comicsansms 20 bold").pack(fill = X)   #title
+Label(text="Welcome to our Massage Center!! ",bg="red",padx = 10,pady = 10, font = "comicsansms 20 bold").pack(fill = X)   #title
 Label(text="We help you to relax your mind and soul", padx =3, pady = 3, font ="comicsanms 15 ").pack(pady=3)  #subtitle 
 Label(text="ABOUT US", font= "comicsansms 19 ").pack(anchor="w",pady=0)    #about branch
 Label(text="_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________").pack()
@@ -75,19 +75,19 @@ sbar.config(command = mt.yview)
 can = Canvas(root,width =1300, heigh = 180 )
 can.pack()
 
-img1 = PhotoImage(file = "pic1.png")
+img1 = PhotoImage(file = r"C:\Users\U6064293\OneDrive - Clarivate Analytics\Desktop\Repo\Automated-Message-System-main\auto\pic1.png")
 my_image1 = can.create_image(300,0, anchor = "n",image =img1)
 
-img2 = PhotoImage(file = "pic2.png")
+img2 = PhotoImage(file = r"C:\Users\U6064293\OneDrive - Clarivate Analytics\Desktop\Repo\Automated-Message-System-main\auto\pic2.png")
 my_image2 = can.create_image(300,0, anchor = "n",image =img2)
 
-img3 = PhotoImage(file = "pic3.png")
+img3 = PhotoImage(file = r"C:\Users\U6064293\OneDrive - Clarivate Analytics\Desktop\Repo\Automated-Message-System-main\auto\pic3.png")
 my_image3 = can.create_image(550,0, anchor = "n",image =img3)
 
-img4 = PhotoImage(file = "pic4.png")
+img4 = PhotoImage(file = r"C:\Users\U6064293\OneDrive - Clarivate Analytics\Desktop\Repo\Automated-Message-System-main\auto\pic4.png")
 my_image4 = can.create_image(800,0, anchor = "n",image =img4)
 
-img5 = PhotoImage(file = "pic5.png")
+img5 = PhotoImage(file = r"C:\Users\U6064293\OneDrive - Clarivate Analytics\Desktop\Repo\Automated-Message-System-main\auto\pic5.png")
 my_image5 = can.create_image(1100,0, anchor = "n",image =img5)
 
 
