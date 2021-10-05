@@ -45,8 +45,8 @@ def click():
 
     print(response.text)
 
-Label(text="Welcome to our Massage Center!! ",bg="red",padx = 10,pady = 10, font = "comicsansms 20 bold").pack(fill = X)   #title
-Label(text="We help you to relax your mind and soul", padx =3, pady = 3, font ="comicsanms 15 ").pack(pady=3)  #subtitle 
+Label(text="Welcome to our Massage Center!! ",bg="Yellow",padx = 10,pady = 10, font = "comicsansms 20 bold").pack(fill = X)   #title
+Label(text="We help you to relax your mind and soul",bg="Yellow",padx =3, pady = 3, font ="comicsanms 15 ").pack(pady=3)  #subtitle 
 Label(text="ABOUT US", font= "comicsansms 19 ").pack(anchor="w",pady=0)    #about branch
 Label(text="_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________").pack()
 frame = Frame(root)
@@ -108,7 +108,7 @@ e4.pack()
 Label(text="Rate us").pack()
 myslider = Scale(root, from_ = 0, to = 5, orient = HORIZONTAL)
 myslider.pack()                                             #slider
-myslider.set(4)                                              #default value
+myslider.set(5)                                              #default value
 b1= Button(root, text="Submit",command= click)              #submit button
 b1.pack()
 root.mainloop()
